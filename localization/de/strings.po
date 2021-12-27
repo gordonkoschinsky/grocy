@@ -1,10 +1,10 @@
-# 
+#
 # Translators:
 # Luca RHK <luca@rhk-in.de>, 2020
 # Tobias Wolter <mumpfpuffel@gmail.com>, 2020
 # @RubenKelevra <ruben@freifunk-nrw.de>, 2021
 # Bernd Bestel <bernd@berrnd.de>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -2576,3 +2576,9 @@ msgstr ""
 "Nach dem Zusammenführen werden alle Referenzen auf diese Hausarbeit durch "
 "die zu behaltende Hausarbeit ersetzt (d. h. diese Hausarbeit existiert dann "
 "nicht mehr)"
+
+msgid "Block from quick consumption"
+msgstr "Von Schnell-Verbrauch ausnehmen"
+
+msgid "When products are consumed via the quick consumption buttons items stored in this location are not considered"
+msgstr "Produkte aus diesem Standort nicht berücksichtigen, wenn Produkte über die Schnell-Verbrauchs-Buttons verbraucht werden"

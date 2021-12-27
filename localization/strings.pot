@@ -2265,3 +2265,6 @@ msgstr ""
 
 msgid "When products are consumed via the quick consumption buttons items stored in this location are not considered."
 msgstr ""
+
+msgid "When products are consumed via the quick consumption buttons items stored in this location are not considered"
+msgstr ""

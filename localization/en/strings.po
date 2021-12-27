@@ -1205,3 +1205,9 @@ msgstr "This is required and can only contain letters and numbers"
 
 msgid "Edit userfield"
 msgstr "Edit userfield"
+
+msgid "Block from quick consumption"
+msgstr "Block from quick consumption"
+
+msgid "When products are consumed via the quick consumption buttons items stored in this location are not considered"
+msgstr "When products are consumed via the quick consumption buttons items stored in this location are not considered"

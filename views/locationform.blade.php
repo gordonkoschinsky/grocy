@@ -76,7 +76,7 @@
 				<div class="custom-control custom-checkbox">
 					<input @if($mode=='edit' && $location->block_from_quick_consumption == 1) checked @endif class="form-check-input custom-control-input" type="checkbox" id="block_from_quick_consumption" name="block_from_quick_consumption" value="1">
 					<label class="form-check-label custom-control-label" for="block_from_quick_consumption">{{ $__t('Block from quick consumption') }}
-						&nbsp;<i class="fas fa-question-circle text-muted" data-toggle="tooltip" data-trigger="hover click" title="{{ $__t('When products are consumed via the quick consumption buttons items stored in this location are not considered.') }}"></i>
+						&nbsp;<i class="fas fa-question-circle text-muted" data-toggle="tooltip" data-trigger="hover click" title="{{ $__t('When products are consumed via the quick consumption buttons items stored in this location are not considered') }}"></i>
 					</label>
 				</div>
 			</div>
