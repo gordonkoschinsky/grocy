@@ -1,0 +1,1 @@
+ALTER TABLE locations ADD COLUMN block_from_quick_consumption TINYINT NOT NULL DEFAULT 0
