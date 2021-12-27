@@ -2259,3 +2259,9 @@ msgstr ""
 
 msgid "After merging, all occurences of this chore will be replaced by the kept chore (means this chore will not exist anymore)"
 msgstr ""
+
+msgid "Block from quick consumption"
+msgstr ""
+
+msgid "When products are consumed via the quick consumption buttons items stored in this location are not considered."
+msgstr ""
