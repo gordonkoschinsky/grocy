@@ -137,7 +137,7 @@ $(document).on('click', '.product-consume-button', function(e)
 	var originalTotalStockAmount = $(e.currentTarget).attr('data-original-total-stock-amount');
 	var wasSpoiled = $(e.currentTarget).hasClass("product-consume-button-spoiled");
 
-	Grocy.Api.Post('stock/products/' + productId + '/consume', { 'amount': consumeAmount, 'spoiled': wasSpoiled, 'allow_subproduct_substitution': true },
+	Grocy.Api.Post('stock/products/' + productId + '/consume', { 'amount': consumeAmount, 'spoiled': wasSpoiled, 'allow_subproduct_substitution': true, 'is_quick_consumption': true },
 		function(bookingResponse)
 		{
 			Grocy.Api.Get('stock/products/' + productId,
@@ -193,7 +193,7 @@ $(document).on('click', '.product-open-button', function(e)
 	var amount = $(e.currentTarget).attr('data-open-amount');
 	var button = $(e.currentTarget);
 
-	Grocy.Api.Post('stock/products/' + productId + '/open', { 'amount': amount, 'allow_subproduct_substitution': true },
+	Grocy.Api.Post('stock/products/' + productId + '/open', { 'amount': amount, 'allow_subproduct_substitution': true, 'is_quick_consumption': true },
 		function(bookingResponse)
 		{
 			Grocy.Api.Get('stock/products/' + productId,
